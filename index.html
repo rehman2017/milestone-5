@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><strong>MileStone 2 Resume Builder[(WD)Engr Sir Abdul Rehman Ansari]</strong></div>
+    <div class="main"> 
+    <from id="resumeform">
+        <div class="personal"><strong>PERSONAL INFORMATION</strong></div>
+
+        <label class="inputname" id="upload" for="picture"><strong>Upload Picture:</strong>
+        <input class="forpic" type="file" id="picture" name="picture" accept="image/*";
+
+        <label class="inputname" for="username"><strong> UserName:</strong></label>
+        <input type="text" id="username"  name="username" placeholder="Enter Your UserName/*";
+
+        <label class="inputname" for="name"><strong> Name:</strong></label>
+        <input type="text" id="name"  name="name" required><br><br>
+
+        <label class="inputname" for="phone"><strong> Phone Number:</strong></label>
+        <input type="tel" id="phone"  name="phone" required><br><br>
+
+        <label class="inputname" for="email"><strong> Email:</strong></label>
+        <input type="email" id="email"  name="email" required><br><br>
+
+        <label class="inputname" for="address"><strong> Address:</strong></label>
+        <textarea id ="address" name="address"  required></textarea><br><br>
+
+        <div class="personal"><strong>SKILLS</strong></div>
+        <label class="inputname" for="skills"><strong> Skills:</strong></label>
+        <input type="text" id="skills" name="skills"  required><br><br>
+
+        <div class="personal"><strong>EDUCATION</strong></div>
+        <label class="inputname" for="education"><strong> Education:</strong></label>
+        </form>
+    </div>
+     <div id="resumepreview">
+        <h1 class="resumeinfo">Personal Information</h1>
+        <img id="displaypicture">
+        <h2 id="displayname"> </h2>
+        <p id="displayphone"></p>
+        <p id="displayemail"></p>
+        <p id="displayaddress"></p>
+        <h1   class="resumeinfo">Skills</h1>
+        <p id="displayskills"></p>
+        <h1   class="resumeinfo">Education</h1>
+        <p id="displayeducation"></p>
+        <h1   class="resumeinfo">Experience</h1>
+        <p id="displayexperience"></p>
+
+     </div> 
+     <br>
+     <div id="shareable-link-container" style="display: block;">
+        <h2>Shareable-link</h2>
+        <p>Here Is Your Unique link To View Or Edit Your Resume</p>
+        <a href="#" id="Shareable-link" target="blank"><b>abdulrehman20172024@gmail.com</b></a>
+              <!-- <button id="shareable-link">shareable-link</button>-->
+               <button id="downloadpdf"><b>Download As PDF</b></button>
+
+     </div>
+
+
+
+     <script src="script.js"></script> 
+
+</body>
+</html>
